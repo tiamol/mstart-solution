@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "MStart",
+    "packageName": "mstart.application",
+    "packageFolder": "mstart/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "vi",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "YTA4MWExY2QwMTMwYTc0YmQyODRkMTQwZDg1M2I1OWVmYTA3ZGZmODJlNDI1NTI2MWY1OWZmMDdlYjFlYjI0NGM3NWM3NjlmYWU0NDQ0M2UxNDA1ODFjOGEzNjRlMTZlODdlMWJkNjg2NTBmYjBmNGIzN2I2NzgzYWFlYzJjNTg=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "tiamol",
+  "repository-name": "mstart-solution"
+}
